@@ -1,0 +1,56 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #E5E7EB;
+  color: black;
+}
+
+.todoContent {
+  display: flex;
+  align-items: center;
+}
+
+.toggleButton {
+  margin-right: 0.5rem;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.text {
+  color: #2D3748;
+}
+
+.completedText {
+  text-decoration: line-through;
+  color: #718096;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.25);
+  appearance: none;
+  border: 1px solid #D1D5DB;
+  border-radius: 0.375rem;
+  width: 5rem;
+  padding: 0.5rem;
+  color: #4A5568;
+  outline: none;
+  margin-right: 0.5rem;
+}
+
+.deleteButton {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}

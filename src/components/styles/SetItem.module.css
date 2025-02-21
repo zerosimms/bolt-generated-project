@@ -1,0 +1,47 @@
+.setItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.25);
+  appearance: none;
+  border: 1px solid #D1D5DB;
+  border-radius: 0.375rem;
+  width: 5rem;
+  padding: 0.5rem;
+  color: #4A5568;
+  outline: none;
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.doneLabel {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.checkbox {
+  height: 1.25rem;
+  width: 1.25rem;
+  background-color: #4F46E5;
+  border: none;
+  outline: none;
+}
+
+.doneText {
+  margin-left: 0.5rem;
+  color: #4A5568;
+  font-size: 0.875rem;
+}
+
+.deleteButton {
+  margin-left: 1rem;
+  color: #E53E3E;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
